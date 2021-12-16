@@ -1,0 +1,1799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"Lottie::LottiePackageTests::ProductTarget" /* LottiePackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_412 /* Build configuration list for PBXAggregateTarget "LottiePackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_415 /* PBXTargetDependency */,
+			);
+			name = LottiePackageTests;
+			productName = LottiePackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_262 /* ExperimentalAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ExperimentalAnimationLayer.swift */; };
+		OBJ_263 /* ExperimentalFeatureConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ExperimentalFeatureConfiguration.swift */; };
+		OBJ_264 /* LayerConstructing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* LayerConstructing.swift */; };
+		OBJ_265 /* ShapeItemLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ShapeItemLayer.swift */; };
+		OBJ_266 /* ShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ShapeLayer.swift */; };
+		OBJ_267 /* SolidLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* SolidLayer.swift */; };
+		OBJ_268 /* AnimationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* AnimationContainer.swift */; };
+		OBJ_269 /* CompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* CompositionLayer.swift */; };
+		OBJ_270 /* ImageCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ImageCompositionLayer.swift */; };
+		OBJ_271 /* MaskContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* MaskContainerLayer.swift */; };
+		OBJ_272 /* NullCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* NullCompositionLayer.swift */; };
+		OBJ_273 /* PreCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* PreCompositionLayer.swift */; };
+		OBJ_274 /* ShapeCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ShapeCompositionLayer.swift */; };
+		OBJ_275 /* SolidCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* SolidCompositionLayer.swift */; };
+		OBJ_276 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* TextCompositionLayer.swift */; };
+		OBJ_277 /* RootAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* RootAnimationLayer.swift */; };
+		OBJ_278 /* CompositionLayersInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* CompositionLayersInitializer.swift */; };
+		OBJ_279 /* InvertedMatteLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* InvertedMatteLayer.swift */; };
+		OBJ_280 /* LayerFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* LayerFontProvider.swift */; };
+		OBJ_281 /* LayerImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* LayerImageProvider.swift */; };
+		OBJ_282 /* LayerTextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* LayerTextProvider.swift */; };
+		OBJ_283 /* LayerTransformNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* LayerTransformNode.swift */; };
+		OBJ_284 /* TextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* TextLayer.swift */; };
+		OBJ_285 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Animation.swift */; };
+		OBJ_286 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Asset.swift */; };
+		OBJ_287 /* AssetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* AssetLibrary.swift */; };
+		OBJ_288 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ImageAsset.swift */; };
+		OBJ_289 /* PrecompAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* PrecompAsset.swift */; };
+		OBJ_290 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Bundle.swift */; };
+		OBJ_291 /* KeyedDecodingContainerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* KeyedDecodingContainerExtensions.swift */; };
+		OBJ_292 /* Keyframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Keyframe.swift */; };
+		OBJ_293 /* KeyframeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* KeyframeGroup.swift */; };
+		OBJ_294 /* ImageLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* ImageLayerModel.swift */; };
+		OBJ_295 /* LayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* LayerModel.swift */; };
+		OBJ_296 /* PreCompLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* PreCompLayerModel.swift */; };
+		OBJ_297 /* ShapeLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* ShapeLayerModel.swift */; };
+		OBJ_298 /* SolidLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* SolidLayerModel.swift */; };
+		OBJ_299 /* TextLayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* TextLayerModel.swift */; };
+		OBJ_300 /* DashPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* DashPattern.swift */; };
+		OBJ_301 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* Marker.swift */; };
+		OBJ_302 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* Mask.swift */; };
+		OBJ_303 /* Transform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* Transform.swift */; };
+		OBJ_304 /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* Ellipse.swift */; };
+		OBJ_305 /* FillI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* FillI.swift */; };
+		OBJ_306 /* GradientFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* GradientFill.swift */; };
+		OBJ_307 /* GradientStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* GradientStroke.swift */; };
+		OBJ_308 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Group.swift */; };
+		OBJ_309 /* Merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Merge.swift */; };
+		OBJ_310 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* Rectangle.swift */; };
+		OBJ_311 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Repeater.swift */; };
+		OBJ_312 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Shape.swift */; };
+		OBJ_313 /* ShapeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* ShapeItem.swift */; };
+		OBJ_314 /* ShapeTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* ShapeTransform.swift */; };
+		OBJ_315 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* Star.swift */; };
+		OBJ_316 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* Stroke.swift */; };
+		OBJ_317 /* Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* Trim.swift */; };
+		OBJ_318 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Font.swift */; };
+		OBJ_319 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Glyph.swift */; };
+		OBJ_320 /* TextAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* TextAnimator.swift */; };
+		OBJ_321 /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* TextDocument.swift */; };
+		OBJ_322 /* ItemsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* ItemsExtension.swift */; };
+		OBJ_323 /* NodeProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* NodeProperty.swift */; };
+		OBJ_324 /* AnyNodeProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* AnyNodeProperty.swift */; };
+		OBJ_325 /* AnyValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* AnyValueContainer.swift */; };
+		OBJ_326 /* KeypathSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* KeypathSearchable.swift */; };
+		OBJ_327 /* NodePropertyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* NodePropertyMap.swift */; };
+		OBJ_328 /* ValueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* ValueContainer.swift */; };
+		OBJ_329 /* GroupInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* GroupInterpolator.swift */; };
+		OBJ_330 /* KeyframeInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* KeyframeInterpolator.swift */; };
+		OBJ_331 /* SingleValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* SingleValueProvider.swift */; };
+		OBJ_332 /* TrimPathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* TrimPathNode.swift */; };
+		OBJ_333 /* GroupOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* GroupOutputNode.swift */; };
+		OBJ_334 /* PassThroughOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* PassThroughOutputNode.swift */; };
+		OBJ_335 /* PathOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* PathOutputNode.swift */; };
+		OBJ_336 /* FillRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* FillRenderer.swift */; };
+		OBJ_337 /* GradientFillRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* GradientFillRenderer.swift */; };
+		OBJ_338 /* GradientStrokeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* GradientStrokeRenderer.swift */; };
+		OBJ_339 /* StrokeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* StrokeRenderer.swift */; };
+		OBJ_340 /* EllipseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* EllipseNode.swift */; };
+		OBJ_341 /* PolygonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* PolygonNode.swift */; };
+		OBJ_342 /* RectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* RectNode.swift */; };
+		OBJ_343 /* ShapeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* ShapeNode.swift */; };
+		OBJ_344 /* StarNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* StarNode.swift */; };
+		OBJ_345 /* GroupNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* GroupNode.swift */; };
+		OBJ_346 /* FillNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* FillNode.swift */; };
+		OBJ_347 /* GradientFillNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* GradientFillNode.swift */; };
+		OBJ_348 /* GradientStrokeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* GradientStrokeNode.swift */; };
+		OBJ_349 /* StrokeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* StrokeNode.swift */; };
+		OBJ_350 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* TextAnimatorNode.swift */; };
+		OBJ_351 /* AnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* AnimatorNode.swift */; };
+		OBJ_352 /* PathNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* PathNode.swift */; };
+		OBJ_353 /* RenderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* RenderNode.swift */; };
+		OBJ_354 /* ShapeContainerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* ShapeContainerLayer.swift */; };
+		OBJ_355 /* ShapeRenderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* ShapeRenderLayer.swift */; };
+		OBJ_356 /* AnimatorNodeDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* AnimatorNodeDebugging.swift */; };
+		OBJ_357 /* LayerDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* LayerDebugging.swift */; };
+		OBJ_358 /* AnimationKeypathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* AnimationKeypathExtension.swift */; };
+		OBJ_359 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* CGFloatExtensions.swift */; };
+		OBJ_360 /* MathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* MathKit.swift */; };
+		OBJ_361 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* StringExtensions.swift */; };
+		OBJ_362 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* AnimationContext.swift */; };
+		OBJ_363 /* Interpolatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* Interpolatable.swift */; };
+		OBJ_364 /* InterpolatableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* InterpolatableExtensions.swift */; };
+		OBJ_365 /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* KeyframeExtensions.swift */; };
+		OBJ_366 /* BezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* BezierPath.swift */; };
+		OBJ_367 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* ColorExtension.swift */; };
+		OBJ_368 /* CompoundBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_149 /* CompoundBezierPath.swift */; };
+		OBJ_369 /* CurveVertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_150 /* CurveVertex.swift */; };
+		OBJ_370 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* PathElement.swift */; };
+		OBJ_371 /* VectorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* VectorsExtensions.swift */; };
+		OBJ_372 /* AnimationPublic.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* AnimationPublic.swift */; };
+		OBJ_373 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_156 /* AnimationView.swift */; };
+		OBJ_374 /* AnimationViewInitializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_157 /* AnimationViewInitializers.swift */; };
+		OBJ_375 /* AnimationCacheProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_159 /* AnimationCacheProvider.swift */; };
+		OBJ_376 /* LRUAnimationCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* LRUAnimationCache.swift */; };
+		OBJ_377 /* AnimationKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* AnimationKeypath.swift */; };
+		OBJ_378 /* AnyValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_163 /* AnyValueProvider.swift */; };
+		OBJ_379 /* ColorValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_165 /* ColorValueProvider.swift */; };
+		OBJ_380 /* FloatValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_166 /* FloatValueProvider.swift */; };
+		OBJ_381 /* GradientValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_167 /* GradientValueProvider.swift */; };
+		OBJ_382 /* PointValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_168 /* PointValueProvider.swift */; };
+		OBJ_383 /* SizeValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_169 /* SizeValueProvider.swift */; };
+		OBJ_384 /* AnimationFontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_171 /* AnimationFontProvider.swift */; };
+		OBJ_385 /* AnimationImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_173 /* AnimationImageProvider.swift */; };
+		OBJ_386 /* AnimationTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_175 /* AnimationTime.swift */; };
+		OBJ_387 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_176 /* Color.swift */; };
+		OBJ_388 /* Vectors.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_177 /* Vectors.swift */; };
+		OBJ_389 /* AnimationTextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_179 /* AnimationTextProvider.swift */; };
+		OBJ_390 /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_181 /* AnimatedButton.swift */; };
+		OBJ_391 /* AnimatedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_182 /* AnimatedControl.swift */; };
+		OBJ_392 /* AnimatedSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_183 /* AnimatedSwitch.swift */; };
+		OBJ_393 /* AnimationSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_184 /* AnimationSubview.swift */; };
+		OBJ_394 /* BundleImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_185 /* BundleImageProvider.swift */; };
+		OBJ_395 /* CompatibleAnimationKeypath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_187 /* CompatibleAnimationKeypath.swift */; };
+		OBJ_396 /* CompatibleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_188 /* CompatibleAnimationView.swift */; };
+		OBJ_397 /* FilepathImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_189 /* FilepathImageProvider.swift */; };
+		OBJ_398 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_190 /* LottieView.swift */; };
+		OBJ_399 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_191 /* UIColorExtension.swift */; };
+		OBJ_400 /* AnimationSubview.macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_193 /* AnimationSubview.macOS.swift */; };
+		OBJ_401 /* BundleImageProvider.macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_194 /* BundleImageProvider.macOS.swift */; };
+		OBJ_402 /* FilepathImageProvider.macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_195 /* FilepathImageProvider.macOS.swift */; };
+		OBJ_403 /* LottieView.macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_196 /* LottieView.macOS.swift */; };
+		OBJ_410 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_421 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_198 /* SnapshotTests.swift */; };
+		OBJ_423 /* SnapshotTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SnapshotTesting::SnapshotTesting::Product" /* SnapshotTesting.framework */; };
+		OBJ_424 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Lottie::Lottie::Product" /* Lottie.framework */; };
+		OBJ_432 /* AssertInlineSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_202 /* AssertInlineSnapshot.swift */; };
+		OBJ_433 /* AssertSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_203 /* AssertSnapshot.swift */; };
+		OBJ_434 /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_204 /* Async.swift */; };
+		OBJ_435 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_206 /* Internal.swift */; };
+		OBJ_436 /* PlistEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_207 /* PlistEncoder.swift */; };
+		OBJ_437 /* String+SpecialCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_208 /* String+SpecialCharacters.swift */; };
+		OBJ_438 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_209 /* View.swift */; };
+		OBJ_439 /* XCTAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_210 /* XCTAttachment.swift */; };
+		OBJ_440 /* Diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_211 /* Diff.swift */; };
+		OBJ_441 /* Diffing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_212 /* Diffing.swift */; };
+		OBJ_442 /* Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_214 /* Wait.swift */; };
+		OBJ_443 /* SnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_215 /* SnapshotTestCase.swift */; };
+		OBJ_444 /* Snapshotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_216 /* Snapshotting.swift */; };
+		OBJ_445 /* Any.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_218 /* Any.swift */; };
+		OBJ_446 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_219 /* CALayer.swift */; };
+		OBJ_447 /* CGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_220 /* CGPath.swift */; };
+		OBJ_448 /* CaseIterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_221 /* CaseIterable.swift */; };
+		OBJ_449 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_222 /* Codable.swift */; };
+		OBJ_450 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_223 /* Data.swift */; };
+		OBJ_451 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_224 /* Description.swift */; };
+		OBJ_452 /* NSBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_225 /* NSBezierPath.swift */; };
+		OBJ_453 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_226 /* NSImage.swift */; };
+		OBJ_454 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_227 /* NSView.swift */; };
+		OBJ_455 /* NSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_228 /* NSViewController.swift */; };
+		OBJ_456 /* SceneKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_229 /* SceneKit.swift */; };
+		OBJ_457 /* SpriteKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_230 /* SpriteKit.swift */; };
+		OBJ_458 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_231 /* String.swift */; };
+		OBJ_459 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_232 /* SwiftUIView.swift */; };
+		OBJ_460 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_233 /* UIBezierPath.swift */; };
+		OBJ_461 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_234 /* UIImage.swift */; };
+		OBJ_462 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_235 /* UIView.swift */; };
+		OBJ_463 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_236 /* UIViewController.swift */; };
+		OBJ_464 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_237 /* URLRequest.swift */; };
+		OBJ_471 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_238 /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAACD9CC276B648F00EBE3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SnapshotTesting::SnapshotTesting";
+			remoteInfo = SnapshotTesting;
+		};
+		BAACD9CD276B648F00EBE3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Lottie::Lottie";
+			remoteInfo = Lottie;
+		};
+		BAACD9CE276B648F00EBE3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "Lottie::LottieTests";
+			remoteInfo = LottieTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		"Lottie::Lottie::Product" /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"Lottie::LottieTests::Product" /* LottieTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = LottieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_10 /* ExperimentalAnimationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentalAnimationLayer.swift; sourceTree = "<group>"; };
+		OBJ_101 /* GroupOutputNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOutputNode.swift; sourceTree = "<group>"; };
+		OBJ_102 /* PassThroughOutputNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughOutputNode.swift; sourceTree = "<group>"; };
+		OBJ_103 /* PathOutputNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathOutputNode.swift; sourceTree = "<group>"; };
+		OBJ_105 /* FillRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillRenderer.swift; sourceTree = "<group>"; };
+		OBJ_106 /* GradientFillRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientFillRenderer.swift; sourceTree = "<group>"; };
+		OBJ_107 /* GradientStrokeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientStrokeRenderer.swift; sourceTree = "<group>"; };
+		OBJ_108 /* StrokeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeRenderer.swift; sourceTree = "<group>"; };
+		OBJ_11 /* ExperimentalFeatureConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentalFeatureConfiguration.swift; sourceTree = "<group>"; };
+		OBJ_110 /* EllipseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EllipseNode.swift; sourceTree = "<group>"; };
+		OBJ_111 /* PolygonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolygonNode.swift; sourceTree = "<group>"; };
+		OBJ_112 /* RectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectNode.swift; sourceTree = "<group>"; };
+		OBJ_113 /* ShapeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeNode.swift; sourceTree = "<group>"; };
+		OBJ_114 /* StarNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarNode.swift; sourceTree = "<group>"; };
+		OBJ_116 /* GroupNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupNode.swift; sourceTree = "<group>"; };
+		OBJ_118 /* FillNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillNode.swift; sourceTree = "<group>"; };
+		OBJ_119 /* GradientFillNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientFillNode.swift; sourceTree = "<group>"; };
+		OBJ_120 /* GradientStrokeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientStrokeNode.swift; sourceTree = "<group>"; };
+		OBJ_121 /* StrokeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeNode.swift; sourceTree = "<group>"; };
+		OBJ_123 /* TextAnimatorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimatorNode.swift; sourceTree = "<group>"; };
+		OBJ_125 /* AnimatorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorNode.swift; sourceTree = "<group>"; };
+		OBJ_126 /* PathNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathNode.swift; sourceTree = "<group>"; };
+		OBJ_127 /* RenderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderNode.swift; sourceTree = "<group>"; };
+		OBJ_129 /* ShapeContainerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeContainerLayer.swift; sourceTree = "<group>"; };
+		OBJ_13 /* LayerConstructing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerConstructing.swift; sourceTree = "<group>"; };
+		OBJ_130 /* ShapeRenderLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRenderLayer.swift; sourceTree = "<group>"; };
+		OBJ_133 /* AnimatorNodeDebugging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorNodeDebugging.swift; sourceTree = "<group>"; };
+		OBJ_134 /* LayerDebugging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerDebugging.swift; sourceTree = "<group>"; };
+		OBJ_136 /* AnimationKeypathExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationKeypathExtension.swift; sourceTree = "<group>"; };
+		OBJ_137 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
+		OBJ_138 /* MathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathKit.swift; sourceTree = "<group>"; };
+		OBJ_139 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		OBJ_14 /* ShapeItemLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeItemLayer.swift; sourceTree = "<group>"; };
+		OBJ_141 /* AnimationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContext.swift; sourceTree = "<group>"; };
+		OBJ_143 /* Interpolatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolatable.swift; sourceTree = "<group>"; };
+		OBJ_144 /* InterpolatableExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatableExtensions.swift; sourceTree = "<group>"; };
+		OBJ_145 /* KeyframeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeExtensions.swift; sourceTree = "<group>"; };
+		OBJ_147 /* BezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPath.swift; sourceTree = "<group>"; };
+		OBJ_148 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		OBJ_149 /* CompoundBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundBezierPath.swift; sourceTree = "<group>"; };
+		OBJ_15 /* ShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayer.swift; sourceTree = "<group>"; };
+		OBJ_150 /* CurveVertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveVertex.swift; sourceTree = "<group>"; };
+		OBJ_151 /* PathElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathElement.swift; sourceTree = "<group>"; };
+		OBJ_152 /* VectorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorsExtensions.swift; sourceTree = "<group>"; };
+		OBJ_155 /* AnimationPublic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPublic.swift; sourceTree = "<group>"; };
+		OBJ_156 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		OBJ_157 /* AnimationViewInitializers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewInitializers.swift; sourceTree = "<group>"; };
+		OBJ_159 /* AnimationCacheProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCacheProvider.swift; sourceTree = "<group>"; };
+		OBJ_16 /* SolidLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidLayer.swift; sourceTree = "<group>"; };
+		OBJ_160 /* LRUAnimationCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUAnimationCache.swift; sourceTree = "<group>"; };
+		OBJ_162 /* AnimationKeypath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationKeypath.swift; sourceTree = "<group>"; };
+		OBJ_163 /* AnyValueProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyValueProvider.swift; sourceTree = "<group>"; };
+		OBJ_165 /* ColorValueProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueProvider.swift; sourceTree = "<group>"; };
+		OBJ_166 /* FloatValueProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatValueProvider.swift; sourceTree = "<group>"; };
+		OBJ_167 /* GradientValueProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientValueProvider.swift; sourceTree = "<group>"; };
+		OBJ_168 /* PointValueProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointValueProvider.swift; sourceTree = "<group>"; };
+		OBJ_169 /* SizeValueProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeValueProvider.swift; sourceTree = "<group>"; };
+		OBJ_171 /* AnimationFontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFontProvider.swift; sourceTree = "<group>"; };
+		OBJ_173 /* AnimationImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationImageProvider.swift; sourceTree = "<group>"; };
+		OBJ_175 /* AnimationTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTime.swift; sourceTree = "<group>"; };
+		OBJ_176 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		OBJ_177 /* Vectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vectors.swift; sourceTree = "<group>"; };
+		OBJ_179 /* AnimationTextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTextProvider.swift; sourceTree = "<group>"; };
+		OBJ_18 /* AnimationContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContainer.swift; sourceTree = "<group>"; };
+		OBJ_181 /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		OBJ_182 /* AnimatedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedControl.swift; sourceTree = "<group>"; };
+		OBJ_183 /* AnimatedSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedSwitch.swift; sourceTree = "<group>"; };
+		OBJ_184 /* AnimationSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSubview.swift; sourceTree = "<group>"; };
+		OBJ_185 /* BundleImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleImageProvider.swift; sourceTree = "<group>"; };
+		OBJ_187 /* CompatibleAnimationKeypath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleAnimationKeypath.swift; sourceTree = "<group>"; };
+		OBJ_188 /* CompatibleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleAnimationView.swift; sourceTree = "<group>"; };
+		OBJ_189 /* FilepathImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilepathImageProvider.swift; sourceTree = "<group>"; };
+		OBJ_190 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		OBJ_191 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		OBJ_193 /* AnimationSubview.macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSubview.macOS.swift; sourceTree = "<group>"; };
+		OBJ_194 /* BundleImageProvider.macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleImageProvider.macOS.swift; sourceTree = "<group>"; };
+		OBJ_195 /* FilepathImageProvider.macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilepathImageProvider.macOS.swift; sourceTree = "<group>"; };
+		OBJ_196 /* LottieView.macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.macOS.swift; sourceTree = "<group>"; };
+		OBJ_198 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
+		OBJ_20 /* CompositionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionLayer.swift; sourceTree = "<group>"; };
+		OBJ_202 /* AssertInlineSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertInlineSnapshot.swift; sourceTree = "<group>"; };
+		OBJ_203 /* AssertSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertSnapshot.swift; sourceTree = "<group>"; };
+		OBJ_204 /* Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Async.swift; sourceTree = "<group>"; };
+		OBJ_206 /* Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
+		OBJ_207 /* PlistEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistEncoder.swift; sourceTree = "<group>"; };
+		OBJ_208 /* String+SpecialCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+SpecialCharacters.swift"; sourceTree = "<group>"; };
+		OBJ_209 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		OBJ_21 /* ImageCompositionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCompositionLayer.swift; sourceTree = "<group>"; };
+		OBJ_210 /* XCTAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTAttachment.swift; sourceTree = "<group>"; };
+		OBJ_211 /* Diff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diff.swift; sourceTree = "<group>"; };
+		OBJ_212 /* Diffing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffing.swift; sourceTree = "<group>"; };
+		OBJ_214 /* Wait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wait.swift; sourceTree = "<group>"; };
+		OBJ_215 /* SnapshotTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTestCase.swift; sourceTree = "<group>"; };
+		OBJ_216 /* Snapshotting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snapshotting.swift; sourceTree = "<group>"; };
+		OBJ_218 /* Any.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Any.swift; sourceTree = "<group>"; };
+		OBJ_219 /* CALayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		OBJ_22 /* MaskContainerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskContainerLayer.swift; sourceTree = "<group>"; };
+		OBJ_220 /* CGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPath.swift; sourceTree = "<group>"; };
+		OBJ_221 /* CaseIterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseIterable.swift; sourceTree = "<group>"; };
+		OBJ_222 /* Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		OBJ_223 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		OBJ_224 /* Description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		OBJ_225 /* NSBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSBezierPath.swift; sourceTree = "<group>"; };
+		OBJ_226 /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		OBJ_227 /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
+		OBJ_228 /* NSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSViewController.swift; sourceTree = "<group>"; };
+		OBJ_229 /* SceneKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKit.swift; sourceTree = "<group>"; };
+		OBJ_23 /* NullCompositionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NullCompositionLayer.swift; sourceTree = "<group>"; };
+		OBJ_230 /* SpriteKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit.swift; sourceTree = "<group>"; };
+		OBJ_231 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		OBJ_232 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		OBJ_233 /* UIBezierPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		OBJ_234 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		OBJ_235 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		OBJ_236 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		OBJ_237 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
+		OBJ_238 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/lvv.me/Documents/repo/lottie-ios/.build/checkouts/swift-snapshot-testing/Package.swift"; sourceTree = "<group>"; };
+		OBJ_24 /* PreCompositionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreCompositionLayer.swift; sourceTree = "<group>"; };
+		OBJ_243 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
+		OBJ_244 /* script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = script; sourceTree = SOURCE_ROOT; };
+		OBJ_245 /* _AeFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _AeFiles; sourceTree = SOURCE_ROOT; };
+		OBJ_246 /* _Gifs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _Gifs; sourceTree = SOURCE_ROOT; };
+		OBJ_247 /* Lottie.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Lottie.xcworkspace; sourceTree = SOURCE_ROOT; };
+		OBJ_248 /* Mintfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mintfile; sourceTree = "<group>"; };
+		OBJ_249 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		OBJ_25 /* ShapeCompositionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeCompositionLayer.swift; sourceTree = "<group>"; };
+		OBJ_250 /* lottie-ios.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lottie-ios.podspec"; sourceTree = "<group>"; };
+		OBJ_251 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		OBJ_252 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_253 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		OBJ_254 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		OBJ_255 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		OBJ_256 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		OBJ_26 /* SolidCompositionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidCompositionLayer.swift; sourceTree = "<group>"; };
+		OBJ_27 /* TextCompositionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCompositionLayer.swift; sourceTree = "<group>"; };
+		OBJ_28 /* RootAnimationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAnimationLayer.swift; sourceTree = "<group>"; };
+		OBJ_30 /* CompositionLayersInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionLayersInitializer.swift; sourceTree = "<group>"; };
+		OBJ_31 /* InvertedMatteLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertedMatteLayer.swift; sourceTree = "<group>"; };
+		OBJ_32 /* LayerFontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerFontProvider.swift; sourceTree = "<group>"; };
+		OBJ_33 /* LayerImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerImageProvider.swift; sourceTree = "<group>"; };
+		OBJ_34 /* LayerTextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerTextProvider.swift; sourceTree = "<group>"; };
+		OBJ_35 /* LayerTransformNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerTransformNode.swift; sourceTree = "<group>"; };
+		OBJ_36 /* TextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayer.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		OBJ_41 /* AssetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetLibrary.swift; sourceTree = "<group>"; };
+		OBJ_42 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
+		OBJ_43 /* PrecompAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecompAsset.swift; sourceTree = "<group>"; };
+		OBJ_45 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		OBJ_46 /* KeyedDecodingContainerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyedDecodingContainerExtensions.swift; sourceTree = "<group>"; };
+		OBJ_48 /* Keyframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyframe.swift; sourceTree = "<group>"; };
+		OBJ_49 /* KeyframeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeGroup.swift; sourceTree = "<group>"; };
+		OBJ_51 /* ImageLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLayerModel.swift; sourceTree = "<group>"; };
+		OBJ_52 /* LayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerModel.swift; sourceTree = "<group>"; };
+		OBJ_53 /* PreCompLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreCompLayerModel.swift; sourceTree = "<group>"; };
+		OBJ_54 /* ShapeLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayerModel.swift; sourceTree = "<group>"; };
+		OBJ_55 /* SolidLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidLayerModel.swift; sourceTree = "<group>"; };
+		OBJ_56 /* TextLayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayerModel.swift; sourceTree = "<group>"; };
+		OBJ_58 /* DashPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashPattern.swift; sourceTree = "<group>"; };
+		OBJ_59 /* Marker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		OBJ_61 /* Transform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform.swift; sourceTree = "<group>"; };
+		OBJ_63 /* Ellipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
+		OBJ_64 /* FillI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillI.swift; sourceTree = "<group>"; };
+		OBJ_65 /* GradientFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientFill.swift; sourceTree = "<group>"; };
+		OBJ_66 /* GradientStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientStroke.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		OBJ_69 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		OBJ_70 /* Repeater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
+		OBJ_71 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		OBJ_72 /* ShapeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeItem.swift; sourceTree = "<group>"; };
+		OBJ_73 /* ShapeTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeTransform.swift; sourceTree = "<group>"; };
+		OBJ_74 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		OBJ_75 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		OBJ_76 /* Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trim.swift; sourceTree = "<group>"; };
+		OBJ_78 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Glyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyph.swift; sourceTree = "<group>"; };
+		OBJ_80 /* TextAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimator.swift; sourceTree = "<group>"; };
+		OBJ_81 /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
+		OBJ_84 /* ItemsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsExtension.swift; sourceTree = "<group>"; };
+		OBJ_86 /* NodeProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeProperty.swift; sourceTree = "<group>"; };
+		OBJ_88 /* AnyNodeProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyNodeProperty.swift; sourceTree = "<group>"; };
+		OBJ_89 /* AnyValueContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyValueContainer.swift; sourceTree = "<group>"; };
+		OBJ_90 /* KeypathSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypathSearchable.swift; sourceTree = "<group>"; };
+		OBJ_91 /* NodePropertyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodePropertyMap.swift; sourceTree = "<group>"; };
+		OBJ_92 /* ValueContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueContainer.swift; sourceTree = "<group>"; };
+		OBJ_94 /* GroupInterpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInterpolator.swift; sourceTree = "<group>"; };
+		OBJ_95 /* KeyframeInterpolator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeInterpolator.swift; sourceTree = "<group>"; };
+		OBJ_96 /* SingleValueProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleValueProvider.swift; sourceTree = "<group>"; };
+		OBJ_99 /* TrimPathNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrimPathNode.swift; sourceTree = "<group>"; };
+		"SnapshotTesting::SnapshotTesting::Product" /* SnapshotTesting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SnapshotTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_423 /* SnapshotTesting.framework in Frameworks */,
+				OBJ_424 /* Lottie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_100 /* OutputNodes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_101 /* GroupOutputNode.swift */,
+				OBJ_102 /* PassThroughOutputNode.swift */,
+				OBJ_103 /* PathOutputNode.swift */,
+				OBJ_104 /* Renderables */,
+			);
+			path = OutputNodes;
+			sourceTree = "<group>";
+		};
+		OBJ_104 /* Renderables */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_105 /* FillRenderer.swift */,
+				OBJ_106 /* GradientFillRenderer.swift */,
+				OBJ_107 /* GradientStrokeRenderer.swift */,
+				OBJ_108 /* StrokeRenderer.swift */,
+			);
+			path = Renderables;
+			sourceTree = "<group>";
+		};
+		OBJ_109 /* PathNodes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_110 /* EllipseNode.swift */,
+				OBJ_111 /* PolygonNode.swift */,
+				OBJ_112 /* RectNode.swift */,
+				OBJ_113 /* ShapeNode.swift */,
+				OBJ_114 /* StarNode.swift */,
+			);
+			path = PathNodes;
+			sourceTree = "<group>";
+		};
+		OBJ_115 /* RenderContainers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_116 /* GroupNode.swift */,
+			);
+			path = RenderContainers;
+			sourceTree = "<group>";
+		};
+		OBJ_117 /* RenderNodes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_118 /* FillNode.swift */,
+				OBJ_119 /* GradientFillNode.swift */,
+				OBJ_120 /* GradientStrokeNode.swift */,
+				OBJ_121 /* StrokeNode.swift */,
+			);
+			path = RenderNodes;
+			sourceTree = "<group>";
+		};
+		OBJ_12 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* LayerConstructing.swift */,
+				OBJ_14 /* ShapeItemLayer.swift */,
+				OBJ_15 /* ShapeLayer.swift */,
+				OBJ_16 /* SolidLayer.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		OBJ_122 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_123 /* TextAnimatorNode.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		OBJ_124 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_125 /* AnimatorNode.swift */,
+				OBJ_126 /* PathNode.swift */,
+				OBJ_127 /* RenderNode.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		OBJ_128 /* RenderLayers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_129 /* ShapeContainerLayer.swift */,
+				OBJ_130 /* ShapeRenderLayer.swift */,
+			);
+			path = RenderLayers;
+			sourceTree = "<group>";
+		};
+		OBJ_131 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_132 /* Debugging */,
+				OBJ_135 /* Extensions */,
+				OBJ_140 /* Helpers */,
+				OBJ_142 /* Interpolatable */,
+				OBJ_146 /* Primitives */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		OBJ_132 /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_133 /* AnimatorNodeDebugging.swift */,
+				OBJ_134 /* LayerDebugging.swift */,
+			);
+			path = Debugging;
+			sourceTree = "<group>";
+		};
+		OBJ_135 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_136 /* AnimationKeypathExtension.swift */,
+				OBJ_137 /* CGFloatExtensions.swift */,
+				OBJ_138 /* MathKit.swift */,
+				OBJ_139 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_140 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_141 /* AnimationContext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		OBJ_142 /* Interpolatable */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_143 /* Interpolatable.swift */,
+				OBJ_144 /* InterpolatableExtensions.swift */,
+				OBJ_145 /* KeyframeExtensions.swift */,
+			);
+			path = Interpolatable;
+			sourceTree = "<group>";
+		};
+		OBJ_146 /* Primitives */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_147 /* BezierPath.swift */,
+				OBJ_148 /* ColorExtension.swift */,
+				OBJ_149 /* CompoundBezierPath.swift */,
+				OBJ_150 /* CurveVertex.swift */,
+				OBJ_151 /* PathElement.swift */,
+				OBJ_152 /* VectorsExtensions.swift */,
+			);
+			path = Primitives;
+			sourceTree = "<group>";
+		};
+		OBJ_153 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_154 /* Animation */,
+				OBJ_158 /* AnimationCache */,
+				OBJ_161 /* DynamicProperties */,
+				OBJ_170 /* FontProvider */,
+				OBJ_172 /* ImageProvider */,
+				OBJ_174 /* Primitives */,
+				OBJ_178 /* TextProvider */,
+				OBJ_180 /* iOS */,
+				OBJ_192 /* macOS */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		OBJ_154 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_155 /* AnimationPublic.swift */,
+				OBJ_156 /* AnimationView.swift */,
+				OBJ_157 /* AnimationViewInitializers.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		OBJ_158 /* AnimationCache */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_159 /* AnimationCacheProvider.swift */,
+				OBJ_160 /* LRUAnimationCache.swift */,
+			);
+			path = AnimationCache;
+			sourceTree = "<group>";
+		};
+		OBJ_161 /* DynamicProperties */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_162 /* AnimationKeypath.swift */,
+				OBJ_163 /* AnyValueProvider.swift */,
+				OBJ_164 /* ValueProviders */,
+			);
+			path = DynamicProperties;
+			sourceTree = "<group>";
+		};
+		OBJ_164 /* ValueProviders */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_165 /* ColorValueProvider.swift */,
+				OBJ_166 /* FloatValueProvider.swift */,
+				OBJ_167 /* GradientValueProvider.swift */,
+				OBJ_168 /* PointValueProvider.swift */,
+				OBJ_169 /* SizeValueProvider.swift */,
+			);
+			path = ValueProviders;
+			sourceTree = "<group>";
+		};
+		OBJ_17 /* LayerContainers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_18 /* AnimationContainer.swift */,
+				OBJ_19 /* CompLayers */,
+				OBJ_28 /* RootAnimationLayer.swift */,
+				OBJ_29 /* Utility */,
+			);
+			path = LayerContainers;
+			sourceTree = "<group>";
+		};
+		OBJ_170 /* FontProvider */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_171 /* AnimationFontProvider.swift */,
+			);
+			path = FontProvider;
+			sourceTree = "<group>";
+		};
+		OBJ_172 /* ImageProvider */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_173 /* AnimationImageProvider.swift */,
+			);
+			path = ImageProvider;
+			sourceTree = "<group>";
+		};
+		OBJ_174 /* Primitives */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_175 /* AnimationTime.swift */,
+				OBJ_176 /* Color.swift */,
+				OBJ_177 /* Vectors.swift */,
+			);
+			path = Primitives;
+			sourceTree = "<group>";
+		};
+		OBJ_178 /* TextProvider */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_179 /* AnimationTextProvider.swift */,
+			);
+			path = TextProvider;
+			sourceTree = "<group>";
+		};
+		OBJ_180 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_181 /* AnimatedButton.swift */,
+				OBJ_182 /* AnimatedControl.swift */,
+				OBJ_183 /* AnimatedSwitch.swift */,
+				OBJ_184 /* AnimationSubview.swift */,
+				OBJ_185 /* BundleImageProvider.swift */,
+				OBJ_186 /* Compatibility */,
+				OBJ_189 /* FilepathImageProvider.swift */,
+				OBJ_190 /* LottieView.swift */,
+				OBJ_191 /* UIColorExtension.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		OBJ_186 /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_187 /* CompatibleAnimationKeypath.swift */,
+				OBJ_188 /* CompatibleAnimationView.swift */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		OBJ_19 /* CompLayers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_20 /* CompositionLayer.swift */,
+				OBJ_21 /* ImageCompositionLayer.swift */,
+				OBJ_22 /* MaskContainerLayer.swift */,
+				OBJ_23 /* NullCompositionLayer.swift */,
+				OBJ_24 /* PreCompositionLayer.swift */,
+				OBJ_25 /* ShapeCompositionLayer.swift */,
+				OBJ_26 /* SolidCompositionLayer.swift */,
+				OBJ_27 /* TextCompositionLayer.swift */,
+			);
+			path = CompLayers;
+			sourceTree = "<group>";
+		};
+		OBJ_192 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_193 /* AnimationSubview.macOS.swift */,
+				OBJ_194 /* BundleImageProvider.macOS.swift */,
+				OBJ_195 /* FilepathImageProvider.macOS.swift */,
+				OBJ_196 /* LottieView.macOS.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		OBJ_197 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_198 /* SnapshotTests.swift */,
+			);
+			path = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_199 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_200 /* SnapshotTesting */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_200 /* SnapshotTesting */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_201 /* SnapshotTesting */,
+				OBJ_238 /* Package.swift */,
+			);
+			name = SnapshotTesting;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_201 /* SnapshotTesting */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_202 /* AssertInlineSnapshot.swift */,
+				OBJ_203 /* AssertSnapshot.swift */,
+				OBJ_204 /* Async.swift */,
+				OBJ_205 /* Common */,
+				OBJ_211 /* Diff.swift */,
+				OBJ_212 /* Diffing.swift */,
+				OBJ_213 /* Extensions */,
+				OBJ_215 /* SnapshotTestCase.swift */,
+				OBJ_216 /* Snapshotting.swift */,
+				OBJ_217 /* Snapshotting */,
+			);
+			name = SnapshotTesting;
+			path = ".build/checkouts/swift-snapshot-testing/Sources/SnapshotTesting";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_205 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_206 /* Internal.swift */,
+				OBJ_207 /* PlistEncoder.swift */,
+				OBJ_208 /* String+SpecialCharacters.swift */,
+				OBJ_209 /* View.swift */,
+				OBJ_210 /* XCTAttachment.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		OBJ_213 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_214 /* Wait.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_217 /* Snapshotting */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_218 /* Any.swift */,
+				OBJ_219 /* CALayer.swift */,
+				OBJ_220 /* CGPath.swift */,
+				OBJ_221 /* CaseIterable.swift */,
+				OBJ_222 /* Codable.swift */,
+				OBJ_223 /* Data.swift */,
+				OBJ_224 /* Description.swift */,
+				OBJ_225 /* NSBezierPath.swift */,
+				OBJ_226 /* NSImage.swift */,
+				OBJ_227 /* NSView.swift */,
+				OBJ_228 /* NSViewController.swift */,
+				OBJ_229 /* SceneKit.swift */,
+				OBJ_230 /* SpriteKit.swift */,
+				OBJ_231 /* String.swift */,
+				OBJ_232 /* SwiftUIView.swift */,
+				OBJ_233 /* UIBezierPath.swift */,
+				OBJ_234 /* UIImage.swift */,
+				OBJ_235 /* UIView.swift */,
+				OBJ_236 /* UIViewController.swift */,
+				OBJ_237 /* URLRequest.swift */,
+			);
+			path = Snapshotting;
+			sourceTree = "<group>";
+		};
+		OBJ_239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"Lottie::Lottie::Product" /* Lottie.framework */,
+				"Lottie::LottieTests::Product" /* LottieTests.xctest */,
+				"SnapshotTesting::SnapshotTesting::Product" /* SnapshotTesting.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_29 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* CompositionLayersInitializer.swift */,
+				OBJ_31 /* InvertedMatteLayer.swift */,
+				OBJ_32 /* LayerFontProvider.swift */,
+				OBJ_33 /* LayerImageProvider.swift */,
+				OBJ_34 /* LayerTextProvider.swift */,
+				OBJ_35 /* LayerTransformNode.swift */,
+				OBJ_36 /* TextLayer.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		OBJ_37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_38 /* Animation.swift */,
+				OBJ_39 /* Assets */,
+				OBJ_44 /* Extensions */,
+				OBJ_47 /* Keyframes */,
+				OBJ_50 /* Layers */,
+				OBJ_57 /* Objects */,
+				OBJ_62 /* ShapeItems */,
+				OBJ_77 /* Text */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		OBJ_39 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_40 /* Asset.swift */,
+				OBJ_41 /* AssetLibrary.swift */,
+				OBJ_42 /* ImageAsset.swift */,
+				OBJ_43 /* PrecompAsset.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		OBJ_44 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_45 /* Bundle.swift */,
+				OBJ_46 /* KeyedDecodingContainerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_47 /* Keyframes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_48 /* Keyframe.swift */,
+				OBJ_49 /* KeyframeGroup.swift */,
+			);
+			path = Keyframes;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_197 /* Tests */,
+				OBJ_199 /* Dependencies */,
+				OBJ_239 /* Products */,
+				OBJ_243 /* Example */,
+				OBJ_244 /* script */,
+				OBJ_245 /* _AeFiles */,
+				OBJ_246 /* _Gifs */,
+				OBJ_247 /* Lottie.xcworkspace */,
+				OBJ_248 /* Mintfile */,
+				OBJ_249 /* LICENSE */,
+				OBJ_250 /* lottie-ios.podspec */,
+				OBJ_251 /* index.js */,
+				OBJ_252 /* README.md */,
+				OBJ_253 /* Rakefile */,
+				OBJ_254 /* package.json */,
+				OBJ_255 /* Gemfile */,
+				OBJ_256 /* Gemfile.lock */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_50 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_51 /* ImageLayerModel.swift */,
+				OBJ_52 /* LayerModel.swift */,
+				OBJ_53 /* PreCompLayerModel.swift */,
+				OBJ_54 /* ShapeLayerModel.swift */,
+				OBJ_55 /* SolidLayerModel.swift */,
+				OBJ_56 /* TextLayerModel.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		OBJ_57 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_58 /* DashPattern.swift */,
+				OBJ_59 /* Marker.swift */,
+				OBJ_60 /* Mask.swift */,
+				OBJ_61 /* Transform.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		OBJ_62 /* ShapeItems */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_63 /* Ellipse.swift */,
+				OBJ_64 /* FillI.swift */,
+				OBJ_65 /* GradientFill.swift */,
+				OBJ_66 /* GradientStroke.swift */,
+				OBJ_67 /* Group.swift */,
+				OBJ_68 /* Merge.swift */,
+				OBJ_69 /* Rectangle.swift */,
+				OBJ_70 /* Repeater.swift */,
+				OBJ_71 /* Shape.swift */,
+				OBJ_72 /* ShapeItem.swift */,
+				OBJ_73 /* ShapeTransform.swift */,
+				OBJ_74 /* Star.swift */,
+				OBJ_75 /* Stroke.swift */,
+				OBJ_76 /* Trim.swift */,
+			);
+			path = ShapeItems;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Private */,
+				OBJ_153 /* Public */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_77 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_78 /* Font.swift */,
+				OBJ_79 /* Glyph.swift */,
+				OBJ_80 /* TextAnimator.swift */,
+				OBJ_81 /* TextDocument.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Experimental */,
+				OBJ_17 /* LayerContainers */,
+				OBJ_37 /* Model */,
+				OBJ_82 /* NodeRenderSystem */,
+				OBJ_131 /* Utility */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		OBJ_82 /* NodeRenderSystem */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_83 /* Extensions */,
+				OBJ_85 /* NodeProperties */,
+				OBJ_97 /* Nodes */,
+				OBJ_124 /* Protocols */,
+				OBJ_128 /* RenderLayers */,
+			);
+			path = NodeRenderSystem;
+			sourceTree = "<group>";
+		};
+		OBJ_83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_84 /* ItemsExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		OBJ_85 /* NodeProperties */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_86 /* NodeProperty.swift */,
+				OBJ_87 /* Protocols */,
+				OBJ_92 /* ValueContainer.swift */,
+				OBJ_93 /* ValueProviders */,
+			);
+			path = NodeProperties;
+			sourceTree = "<group>";
+		};
+		OBJ_87 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_88 /* AnyNodeProperty.swift */,
+				OBJ_89 /* AnyValueContainer.swift */,
+				OBJ_90 /* KeypathSearchable.swift */,
+				OBJ_91 /* NodePropertyMap.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		OBJ_9 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* ExperimentalAnimationLayer.swift */,
+				OBJ_11 /* ExperimentalFeatureConfiguration.swift */,
+				OBJ_12 /* Layers */,
+			);
+			path = Experimental;
+			sourceTree = "<group>";
+		};
+		OBJ_93 /* ValueProviders */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_94 /* GroupInterpolator.swift */,
+				OBJ_95 /* KeyframeInterpolator.swift */,
+				OBJ_96 /* SingleValueProvider.swift */,
+			);
+			path = ValueProviders;
+			sourceTree = "<group>";
+		};
+		OBJ_97 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_98 /* ModifierNodes */,
+				OBJ_100 /* OutputNodes */,
+				OBJ_109 /* PathNodes */,
+				OBJ_115 /* RenderContainers */,
+				OBJ_117 /* RenderNodes */,
+				OBJ_122 /* Text */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		OBJ_98 /* ModifierNodes */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_99 /* TrimPathNode.swift */,
+			);
+			path = ModifierNodes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"Lottie::Lottie" /* Lottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_258 /* Build configuration list for PBXNativeTarget "Lottie" */;
+			buildPhases = (
+				OBJ_261 /* Sources */,
+				OBJ_404 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lottie;
+			productName = Lottie;
+			productReference = "Lottie::Lottie::Product" /* Lottie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"Lottie::LottieTests" /* LottieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_417 /* Build configuration list for PBXNativeTarget "LottieTests" */;
+			buildPhases = (
+				OBJ_420 /* Sources */,
+				OBJ_422 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_425 /* PBXTargetDependency */,
+				OBJ_427 /* PBXTargetDependency */,
+			);
+			name = LottieTests;
+			productName = LottieTests;
+			productReference = "Lottie::LottieTests::Product" /* LottieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"Lottie::SwiftPMPackageDescription" /* LottiePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_406 /* Build configuration list for PBXNativeTarget "LottiePackageDescription" */;
+			buildPhases = (
+				OBJ_409 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottiePackageDescription;
+			productName = LottiePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SnapshotTesting::SnapshotTesting" /* SnapshotTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_428 /* Build configuration list for PBXNativeTarget "SnapshotTesting" */;
+			buildPhases = (
+				OBJ_431 /* Sources */,
+				OBJ_465 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapshotTesting;
+			productName = SnapshotTesting;
+			productReference = "SnapshotTesting::SnapshotTesting::Product" /* SnapshotTesting.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SnapshotTesting::SwiftPMPackageDescription" /* SnapshotTestingPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_467 /* Build configuration list for PBXNativeTarget "SnapshotTestingPackageDescription" */;
+			buildPhases = (
+				OBJ_470 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapshotTestingPackageDescription;
+			productName = SnapshotTestingPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Lottie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"Lottie::Lottie" /* Lottie */,
+				"Lottie::SwiftPMPackageDescription" /* LottiePackageDescription */,
+				"Lottie::LottiePackageTests::ProductTarget" /* LottiePackageTests */,
+				"Lottie::LottieTests" /* LottieTests */,
+				"SnapshotTesting::SnapshotTesting" /* SnapshotTesting */,
+				"SnapshotTesting::SwiftPMPackageDescription" /* SnapshotTestingPackageDescription */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_262 /* ExperimentalAnimationLayer.swift in Sources */,
+				OBJ_263 /* ExperimentalFeatureConfiguration.swift in Sources */,
+				OBJ_264 /* LayerConstructing.swift in Sources */,
+				OBJ_265 /* ShapeItemLayer.swift in Sources */,
+				OBJ_266 /* ShapeLayer.swift in Sources */,
+				OBJ_267 /* SolidLayer.swift in Sources */,
+				OBJ_268 /* AnimationContainer.swift in Sources */,
+				OBJ_269 /* CompositionLayer.swift in Sources */,
+				OBJ_270 /* ImageCompositionLayer.swift in Sources */,
+				OBJ_271 /* MaskContainerLayer.swift in Sources */,
+				OBJ_272 /* NullCompositionLayer.swift in Sources */,
+				OBJ_273 /* PreCompositionLayer.swift in Sources */,
+				OBJ_274 /* ShapeCompositionLayer.swift in Sources */,
+				OBJ_275 /* SolidCompositionLayer.swift in Sources */,
+				OBJ_276 /* TextCompositionLayer.swift in Sources */,
+				OBJ_277 /* RootAnimationLayer.swift in Sources */,
+				OBJ_278 /* CompositionLayersInitializer.swift in Sources */,
+				OBJ_279 /* InvertedMatteLayer.swift in Sources */,
+				OBJ_280 /* LayerFontProvider.swift in Sources */,
+				OBJ_281 /* LayerImageProvider.swift in Sources */,
+				OBJ_282 /* LayerTextProvider.swift in Sources */,
+				OBJ_283 /* LayerTransformNode.swift in Sources */,
+				OBJ_284 /* TextLayer.swift in Sources */,
+				OBJ_285 /* Animation.swift in Sources */,
+				OBJ_286 /* Asset.swift in Sources */,
+				OBJ_287 /* AssetLibrary.swift in Sources */,
+				OBJ_288 /* ImageAsset.swift in Sources */,
+				OBJ_289 /* PrecompAsset.swift in Sources */,
+				OBJ_290 /* Bundle.swift in Sources */,
+				OBJ_291 /* KeyedDecodingContainerExtensions.swift in Sources */,
+				OBJ_292 /* Keyframe.swift in Sources */,
+				OBJ_293 /* KeyframeGroup.swift in Sources */,
+				OBJ_294 /* ImageLayerModel.swift in Sources */,
+				OBJ_295 /* LayerModel.swift in Sources */,
+				OBJ_296 /* PreCompLayerModel.swift in Sources */,
+				OBJ_297 /* ShapeLayerModel.swift in Sources */,
+				OBJ_298 /* SolidLayerModel.swift in Sources */,
+				OBJ_299 /* TextLayerModel.swift in Sources */,
+				OBJ_300 /* DashPattern.swift in Sources */,
+				OBJ_301 /* Marker.swift in Sources */,
+				OBJ_302 /* Mask.swift in Sources */,
+				OBJ_303 /* Transform.swift in Sources */,
+				OBJ_304 /* Ellipse.swift in Sources */,
+				OBJ_305 /* FillI.swift in Sources */,
+				OBJ_306 /* GradientFill.swift in Sources */,
+				OBJ_307 /* GradientStroke.swift in Sources */,
+				OBJ_308 /* Group.swift in Sources */,
+				OBJ_309 /* Merge.swift in Sources */,
+				OBJ_310 /* Rectangle.swift in Sources */,
+				OBJ_311 /* Repeater.swift in Sources */,
+				OBJ_312 /* Shape.swift in Sources */,
+				OBJ_313 /* ShapeItem.swift in Sources */,
+				OBJ_314 /* ShapeTransform.swift in Sources */,
+				OBJ_315 /* Star.swift in Sources */,
+				OBJ_316 /* Stroke.swift in Sources */,
+				OBJ_317 /* Trim.swift in Sources */,
+				OBJ_318 /* Font.swift in Sources */,
+				OBJ_319 /* Glyph.swift in Sources */,
+				OBJ_320 /* TextAnimator.swift in Sources */,
+				OBJ_321 /* TextDocument.swift in Sources */,
+				OBJ_322 /* ItemsExtension.swift in Sources */,
+				OBJ_323 /* NodeProperty.swift in Sources */,
+				OBJ_324 /* AnyNodeProperty.swift in Sources */,
+				OBJ_325 /* AnyValueContainer.swift in Sources */,
+				OBJ_326 /* KeypathSearchable.swift in Sources */,
+				OBJ_327 /* NodePropertyMap.swift in Sources */,
+				OBJ_328 /* ValueContainer.swift in Sources */,
+				OBJ_329 /* GroupInterpolator.swift in Sources */,
+				OBJ_330 /* KeyframeInterpolator.swift in Sources */,
+				OBJ_331 /* SingleValueProvider.swift in Sources */,
+				OBJ_332 /* TrimPathNode.swift in Sources */,
+				OBJ_333 /* GroupOutputNode.swift in Sources */,
+				OBJ_334 /* PassThroughOutputNode.swift in Sources */,
+				OBJ_335 /* PathOutputNode.swift in Sources */,
+				OBJ_336 /* FillRenderer.swift in Sources */,
+				OBJ_337 /* GradientFillRenderer.swift in Sources */,
+				OBJ_338 /* GradientStrokeRenderer.swift in Sources */,
+				OBJ_339 /* StrokeRenderer.swift in Sources */,
+				OBJ_340 /* EllipseNode.swift in Sources */,
+				OBJ_341 /* PolygonNode.swift in Sources */,
+				OBJ_342 /* RectNode.swift in Sources */,
+				OBJ_343 /* ShapeNode.swift in Sources */,
+				OBJ_344 /* StarNode.swift in Sources */,
+				OBJ_345 /* GroupNode.swift in Sources */,
+				OBJ_346 /* FillNode.swift in Sources */,
+				OBJ_347 /* GradientFillNode.swift in Sources */,
+				OBJ_348 /* GradientStrokeNode.swift in Sources */,
+				OBJ_349 /* StrokeNode.swift in Sources */,
+				OBJ_350 /* TextAnimatorNode.swift in Sources */,
+				OBJ_351 /* AnimatorNode.swift in Sources */,
+				OBJ_352 /* PathNode.swift in Sources */,
+				OBJ_353 /* RenderNode.swift in Sources */,
+				OBJ_354 /* ShapeContainerLayer.swift in Sources */,
+				OBJ_355 /* ShapeRenderLayer.swift in Sources */,
+				OBJ_356 /* AnimatorNodeDebugging.swift in Sources */,
+				OBJ_357 /* LayerDebugging.swift in Sources */,
+				OBJ_358 /* AnimationKeypathExtension.swift in Sources */,
+				OBJ_359 /* CGFloatExtensions.swift in Sources */,
+				OBJ_360 /* MathKit.swift in Sources */,
+				OBJ_361 /* StringExtensions.swift in Sources */,
+				OBJ_362 /* AnimationContext.swift in Sources */,
+				OBJ_363 /* Interpolatable.swift in Sources */,
+				OBJ_364 /* InterpolatableExtensions.swift in Sources */,
+				OBJ_365 /* KeyframeExtensions.swift in Sources */,
+				OBJ_366 /* BezierPath.swift in Sources */,
+				OBJ_367 /* ColorExtension.swift in Sources */,
+				OBJ_368 /* CompoundBezierPath.swift in Sources */,
+				OBJ_369 /* CurveVertex.swift in Sources */,
+				OBJ_370 /* PathElement.swift in Sources */,
+				OBJ_371 /* VectorsExtensions.swift in Sources */,
+				OBJ_372 /* AnimationPublic.swift in Sources */,
+				OBJ_373 /* AnimationView.swift in Sources */,
+				OBJ_374 /* AnimationViewInitializers.swift in Sources */,
+				OBJ_375 /* AnimationCacheProvider.swift in Sources */,
+				OBJ_376 /* LRUAnimationCache.swift in Sources */,
+				OBJ_377 /* AnimationKeypath.swift in Sources */,
+				OBJ_378 /* AnyValueProvider.swift in Sources */,
+				OBJ_379 /* ColorValueProvider.swift in Sources */,
+				OBJ_380 /* FloatValueProvider.swift in Sources */,
+				OBJ_381 /* GradientValueProvider.swift in Sources */,
+				OBJ_382 /* PointValueProvider.swift in Sources */,
+				OBJ_383 /* SizeValueProvider.swift in Sources */,
+				OBJ_384 /* AnimationFontProvider.swift in Sources */,
+				OBJ_385 /* AnimationImageProvider.swift in Sources */,
+				OBJ_386 /* AnimationTime.swift in Sources */,
+				OBJ_387 /* Color.swift in Sources */,
+				OBJ_388 /* Vectors.swift in Sources */,
+				OBJ_389 /* AnimationTextProvider.swift in Sources */,
+				OBJ_390 /* AnimatedButton.swift in Sources */,
+				OBJ_391 /* AnimatedControl.swift in Sources */,
+				OBJ_392 /* AnimatedSwitch.swift in Sources */,
+				OBJ_393 /* AnimationSubview.swift in Sources */,
+				OBJ_394 /* BundleImageProvider.swift in Sources */,
+				OBJ_395 /* CompatibleAnimationKeypath.swift in Sources */,
+				OBJ_396 /* CompatibleAnimationView.swift in Sources */,
+				OBJ_397 /* FilepathImageProvider.swift in Sources */,
+				OBJ_398 /* LottieView.swift in Sources */,
+				OBJ_399 /* UIColorExtension.swift in Sources */,
+				OBJ_400 /* AnimationSubview.macOS.swift in Sources */,
+				OBJ_401 /* BundleImageProvider.macOS.swift in Sources */,
+				OBJ_402 /* FilepathImageProvider.macOS.swift in Sources */,
+				OBJ_403 /* LottieView.macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_410 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_421 /* SnapshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_432 /* AssertInlineSnapshot.swift in Sources */,
+				OBJ_433 /* AssertSnapshot.swift in Sources */,
+				OBJ_434 /* Async.swift in Sources */,
+				OBJ_435 /* Internal.swift in Sources */,
+				OBJ_436 /* PlistEncoder.swift in Sources */,
+				OBJ_437 /* String+SpecialCharacters.swift in Sources */,
+				OBJ_438 /* View.swift in Sources */,
+				OBJ_439 /* XCTAttachment.swift in Sources */,
+				OBJ_440 /* Diff.swift in Sources */,
+				OBJ_441 /* Diffing.swift in Sources */,
+				OBJ_442 /* Wait.swift in Sources */,
+				OBJ_443 /* SnapshotTestCase.swift in Sources */,
+				OBJ_444 /* Snapshotting.swift in Sources */,
+				OBJ_445 /* Any.swift in Sources */,
+				OBJ_446 /* CALayer.swift in Sources */,
+				OBJ_447 /* CGPath.swift in Sources */,
+				OBJ_448 /* CaseIterable.swift in Sources */,
+				OBJ_449 /* Codable.swift in Sources */,
+				OBJ_450 /* Data.swift in Sources */,
+				OBJ_451 /* Description.swift in Sources */,
+				OBJ_452 /* NSBezierPath.swift in Sources */,
+				OBJ_453 /* NSImage.swift in Sources */,
+				OBJ_454 /* NSView.swift in Sources */,
+				OBJ_455 /* NSViewController.swift in Sources */,
+				OBJ_456 /* SceneKit.swift in Sources */,
+				OBJ_457 /* SpriteKit.swift in Sources */,
+				OBJ_458 /* String.swift in Sources */,
+				OBJ_459 /* SwiftUIView.swift in Sources */,
+				OBJ_460 /* UIBezierPath.swift in Sources */,
+				OBJ_461 /* UIImage.swift in Sources */,
+				OBJ_462 /* UIView.swift in Sources */,
+				OBJ_463 /* UIViewController.swift in Sources */,
+				OBJ_464 /* URLRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_471 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Lottie::LottieTests" /* LottieTests */;
+			targetProxy = BAACD9CE276B648F00EBE3C0 /* PBXContainerItemProxy */;
+		};
+		OBJ_425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SnapshotTesting::SnapshotTesting" /* SnapshotTesting */;
+			targetProxy = BAACD9CC276B648F00EBE3C0 /* PBXContainerItemProxy */;
+		};
+		OBJ_427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "Lottie::Lottie" /* Lottie */;
+			targetProxy = BAACD9CD276B648F00EBE3C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Lottie.xcodeproj/Lottie_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Lottie;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Lottie;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Lottie.xcodeproj/Lottie_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Lottie;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = Lottie;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "$(inherited) -DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "$(AVAILABLE_PLATFORMS)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.3.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Lottie.xcodeproj/LottieTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = LottieTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		OBJ_419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Lottie.xcodeproj/LottieTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = LottieTests;
+				TVOS_DEPLOYMENT_TARGET = 14.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		OBJ_429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Lottie.xcodeproj/SnapshotTesting_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SnapshotTesting;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SnapshotTesting;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DRIVERKIT_DEPLOYMENT_TARGET = 19.0;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Lottie.xcodeproj/SnapshotTesting_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SnapshotTesting;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = SnapshotTesting;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/ManifestAPI -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -package-description-version 5.0.0";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "Lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_258 /* Build configuration list for PBXNativeTarget "Lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_259 /* Debug */,
+				OBJ_260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_406 /* Build configuration list for PBXNativeTarget "LottiePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_407 /* Debug */,
+				OBJ_408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_412 /* Build configuration list for PBXAggregateTarget "LottiePackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_413 /* Debug */,
+				OBJ_414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_417 /* Build configuration list for PBXNativeTarget "LottieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_418 /* Debug */,
+				OBJ_419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_428 /* Build configuration list for PBXNativeTarget "SnapshotTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_429 /* Debug */,
+				OBJ_430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_467 /* Build configuration list for PBXNativeTarget "SnapshotTestingPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_468 /* Debug */,
+				OBJ_469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
