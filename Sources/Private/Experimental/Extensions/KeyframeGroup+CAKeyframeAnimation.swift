@@ -60,8 +60,24 @@ extension KeyframeGroup {
       keyTimes.append(NSNumber(value: Float(keyframe.keyTime)))
     }
 
+    // TODO: Tighten this up
+    //
+    //  - We use `calculationMode = .linear` right now (probably `.cubic` in the future?),
+    //    and if we don't follow this contract for `keyTimes` then Bad Things will happen
+    //    when we try to compute a `layer.presentation()` in the test suite
+    //
+    // If the calculationMode is set to linear or cubic, the first value in the array
+    // must be 0.0 and the last value must be 1.0. All intermediate values represent
+    // time points between the start and end times.
+    //
+    if keyTimes.last?.floatValue != 1 {
+      values.append(values.last!)
+      keyTimes.append(1)
+    }
+
     animation.values = values
     animation.keyTimes = keyTimes
+
     return animation
   }
 

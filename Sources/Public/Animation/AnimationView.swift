@@ -992,7 +992,13 @@ final public class AnimationView: LottieView {
     // TODO: Improve this integration point with the experimental rendering engine,
     // and implement support for more configuration points
     if let experimentalAnimationLayer = animationlayer as? ExperimentalAnimationLayer {
-      experimentalAnimationLayer.playAnimation()
+      experimentalAnimationLayer.playAnimation(
+        //        timingConfiguration: .init(
+//          speed: 0,
+//          timeOffset: 0.1 * animation.duration)
+        timingConfiguration: .init(
+          autoreverses: true,
+          repeatCount: .greatestFiniteMagnitude))
       return
     }
 

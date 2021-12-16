@@ -41,6 +41,17 @@ final class ShapeLayer: CALayer {
     fatalError("init(coder:) has not been implemented")
   }
 
+  /// Called by CoreAnimation to create a shadow copy of this layer
+  /// More details: https://developer.apple.com/documentation/quartzcore/calayer/1410842-init
+  override init(layer: Any) {
+    guard let layer = layer as? Self else {
+      fatalError("init(layer:) incorrectly called with \(type(of: layer))")
+    }
+
+    shapeLayer = layer.shapeLayer
+    super.init(layer: layer)
+  }
+
   // MARK: Internal
 
   override func layoutSublayers() {
@@ -80,9 +91,12 @@ extension ShapeLayer: AnimationLayer {
       shapeLayer.transform.anchorPoint.caKeyframes(
         animating: .anchorPoint,
         value: { vector in
-          CGPoint(
-            x: CGFloat(vector.x) / bounds.width,
-            y: CGFloat(vector.y) / bounds.height)
+          guard bounds.width > 0, bounds.height > 0 else {
+            assertionFailure("Size must be non-zero before an animation can be played")
+            return .zero
+          }
+
+          return CGPoint(x: CGFloat(vector.x) / bounds.width, y: CGFloat(vector.y) / bounds.height)
         },
         context: context),
 
